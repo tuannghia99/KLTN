@@ -94,7 +94,6 @@ def main(infile,vocab, outfile):
     infile.close()
 
     print("Dump to file..............")
-    f= open("/home/ngovinh/NgoVinh/D/NMT2018/Corpus-store/VLSP/MONO_VI/corpus.10M.shuf.tok.true.vi",'r')
 
     lines=f.readlines()
 
