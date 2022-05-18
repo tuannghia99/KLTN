@@ -120,7 +120,6 @@ def main(infile1, infile2,vocab1,vocab2, outfile1, outfile2):
     infile2.seek(0)
 
     print("Dump to file..............")
-    # f= open("/home/ngovinh/NgoVinh/D/NMT2018/Corpus-store/VLSP/MONO_VI/corpus.10M.shuf.tok.true.vi",'r')
 
     lines1=infile1.readlines()
     lines2=infile2.readlines()
